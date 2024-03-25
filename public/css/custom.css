@@ -1,0 +1,154 @@
+.preloader{
+    display: none;
+}
+
+.card-body, .modal {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.modal-header {
+  padding: 1em 0.5em 1em 0.5em;
+  text-align: center;
+}
+
+.modal-footer {
+  /* background: #f0f7ff; */
+  background-color: #ded2e8;
+}
+
+.modal-footer-hapus {
+  /* background: #f0f7ff; */
+  background-color: #e9c2c7 !important;
+}
+
+.btn {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.select2-container--bootstrap4 .select2-results__option--highlighted, .select2-container--bootstrap4 .select2-results__option--highlighted.select2-results__option[aria-selected="true"] {
+  background-color: #892bdf;
+}
+
+.btn-primary {
+  background-color: #892bdf;
+  border-color: #892bdf;
+}
+
+.btn-primary:hover {
+  background-color: #892bdf;
+  border-color: #892bdf;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #892bdf;
+  border-color: #892bdf;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0 rgba(122, 2, 116, 0.5);
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0 rgba(38, 143, 255, 0.5);
+}
+
+
+a, h5 {
+  color: #892bdf;
+}
+
+/* datepicker */
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #892bdf;
+}
+
+.badge-title {
+  background-color: #892bdf;
+
+}
+
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+  background-color: #892bdf;
+}
+
+.report-body {
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+.page-item.active .page-link {
+  background-color: #892bdf;
+  border-color: #892bdf;
+}
+
+/* .small-box { */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+/* } */
+
+.small-box {
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bg-info-dash {
+  background-image: linear-gradient(to right bottom, #3971c4, #0090dc, #00adec, #00caf6, #00e6fb);
+  color: white;
+}
+
+.bg-success-dash {
+  background-image: linear-gradient(to right bottom, #0f7a14, #28992f, #3cba4a, #4edc65, #60ff82);
+  color: white;
+}
+
+.bg-warning-dash {
+  background-image: linear-gradient(to right bottom, #ff7a00, #ff9136, #fea55b, #fcb97e, #f9cba2);
+  color: white;
+}
+
+.bg-warning2-dash {
+  background-image: linear-gradient(to right bottom, #1b6ce9, #636feb, #8a73eb, #a978ea, #c47de9, #cf7dea, #db7deb, #e67dec, #e876f0, #ea6ff3, #eb67f7, #ed5ffb);  color: white;
+}
+
+.bg-danger-dash {
+  background-image: linear-gradient(to right bottom, #9c68ff, #b175fd, #c284fb, #d192fa, #dea2f9);
+  color: white;
+}
+
+.bg-danger2-dash {
+  background-image: linear-gradient(to right bottom, #ff0404, #ff2a25, #ff3f3b, #ff504e, #ff6060);
+  color: white;
+}
+
+.brand-link {
+  background-image: linear-gradient(to right, #856bd1, #9470d5, #a275da, #b07ade, #bd7fe2, #c786e5, #d18de7, #da95ea, #e2a1ec, #eaadef, #f1b9f2, #f8c5f5);  
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.login-page, .register-page {
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #856bd1, #9470d5, #a275da, #b07ade, #bd7fe2, #c786e5, #d18de7, #da95ea, #e2a1ec, #eaadef, #f1b9f2, #f8c5f5) !important;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+input {
+  border:1px solid #b884ec !important;
+}
